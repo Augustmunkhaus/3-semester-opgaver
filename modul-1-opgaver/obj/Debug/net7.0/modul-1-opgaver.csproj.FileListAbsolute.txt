@@ -1,0 +1,15 @@
+C:\Users\August\source\repos\modul-1-opgaver\bin\Debug\net7.0\modul-1-opgaver.exe
+C:\Users\August\source\repos\modul-1-opgaver\bin\Debug\net7.0\modul-1-opgaver.deps.json
+C:\Users\August\source\repos\modul-1-opgaver\bin\Debug\net7.0\modul-1-opgaver.runtimeconfig.json
+C:\Users\August\source\repos\modul-1-opgaver\bin\Debug\net7.0\modul-1-opgaver.dll
+C:\Users\August\source\repos\modul-1-opgaver\bin\Debug\net7.0\modul-1-opgaver.pdb
+C:\Users\August\source\repos\modul-1-opgaver\obj\Debug\net7.0\modul-1-opgaver.csproj.AssemblyReference.cache
+C:\Users\August\source\repos\modul-1-opgaver\obj\Debug\net7.0\modul-1-opgaver.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\August\source\repos\modul-1-opgaver\obj\Debug\net7.0\modul-1-opgaver.AssemblyInfoInputs.cache
+C:\Users\August\source\repos\modul-1-opgaver\obj\Debug\net7.0\modul-1-opgaver.AssemblyInfo.cs
+C:\Users\August\source\repos\modul-1-opgaver\obj\Debug\net7.0\modul-1-opgaver.csproj.CoreCompileInputs.cache
+C:\Users\August\source\repos\modul-1-opgaver\obj\Debug\net7.0\modul-1-opgaver.dll
+C:\Users\August\source\repos\modul-1-opgaver\obj\Debug\net7.0\refint\modul-1-opgaver.dll
+C:\Users\August\source\repos\modul-1-opgaver\obj\Debug\net7.0\modul-1-opgaver.pdb
+C:\Users\August\source\repos\modul-1-opgaver\obj\Debug\net7.0\modul-1-opgaver.genruntimeconfig.cache
+C:\Users\August\source\repos\modul-1-opgaver\obj\Debug\net7.0\ref\modul-1-opgaver.dll

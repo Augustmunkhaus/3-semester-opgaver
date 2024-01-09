@@ -1,0 +1,15 @@
+C:\Users\August\source\repos\Modul-2-Opgaver\Modul-2-Opgaver\bin\Debug\net6.0\Modul-2-Opgaver.exe
+C:\Users\August\source\repos\Modul-2-Opgaver\Modul-2-Opgaver\bin\Debug\net6.0\Modul-2-Opgaver.deps.json
+C:\Users\August\source\repos\Modul-2-Opgaver\Modul-2-Opgaver\bin\Debug\net6.0\Modul-2-Opgaver.runtimeconfig.json
+C:\Users\August\source\repos\Modul-2-Opgaver\Modul-2-Opgaver\bin\Debug\net6.0\Modul-2-Opgaver.dll
+C:\Users\August\source\repos\Modul-2-Opgaver\Modul-2-Opgaver\bin\Debug\net6.0\Modul-2-Opgaver.pdb
+C:\Users\August\source\repos\Modul-2-Opgaver\Modul-2-Opgaver\obj\Debug\net6.0\Modul-2-Opgaver.csproj.AssemblyReference.cache
+C:\Users\August\source\repos\Modul-2-Opgaver\Modul-2-Opgaver\obj\Debug\net6.0\Modul-2-Opgaver.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\August\source\repos\Modul-2-Opgaver\Modul-2-Opgaver\obj\Debug\net6.0\Modul-2-Opgaver.AssemblyInfoInputs.cache
+C:\Users\August\source\repos\Modul-2-Opgaver\Modul-2-Opgaver\obj\Debug\net6.0\Modul-2-Opgaver.AssemblyInfo.cs
+C:\Users\August\source\repos\Modul-2-Opgaver\Modul-2-Opgaver\obj\Debug\net6.0\Modul-2-Opgaver.csproj.CoreCompileInputs.cache
+C:\Users\August\source\repos\Modul-2-Opgaver\Modul-2-Opgaver\obj\Debug\net6.0\Modul-2-Opgaver.dll
+C:\Users\August\source\repos\Modul-2-Opgaver\Modul-2-Opgaver\obj\Debug\net6.0\refint\Modul-2-Opgaver.dll
+C:\Users\August\source\repos\Modul-2-Opgaver\Modul-2-Opgaver\obj\Debug\net6.0\Modul-2-Opgaver.pdb
+C:\Users\August\source\repos\Modul-2-Opgaver\Modul-2-Opgaver\obj\Debug\net6.0\Modul-2-Opgaver.genruntimeconfig.cache
+C:\Users\August\source\repos\Modul-2-Opgaver\Modul-2-Opgaver\obj\Debug\net6.0\ref\Modul-2-Opgaver.dll
