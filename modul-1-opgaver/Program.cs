@@ -20,11 +20,17 @@ Console.WriteLine("Hello, bob!");
 */
 
 Console.WriteLine(Opgave3.Faculty(5)); // Output skal være '120'.
-Console.WriteLine(Opgave4.Modulu(20, 10));
+Console.WriteLine(Opgave4.Euclid(36, 60));
 Console.WriteLine(Opgave5.Potens(5, 4));
 Console.WriteLine(Opgave6.Multiply(5, 4));
 class Opgave3
 {
+   /* public static int Faculty(int n)
+    {
+        return n == 0 ? 1 : n * Faculty(n - 1);
+    }
+   */
+
     public static int Faculty(int n)
     {
         //her er termineringsreglen. hvis n rammer 0, returnere vi 1.
@@ -32,66 +38,55 @@ class Opgave3
         {
             return 1; 
         }
-        //her er rekurrensreglen. den fortsætter indtil vi rammer termineringsreglen.
-        else if (n >= 1)
-        { //her er den rekursive del, da vi kalder på funktionen inde i selve funktionen.
-            return n * Faculty(n - 1)!;
-        }
-        return -1;
+        //her er rekurrensreglen. den fortsætter indtil vi rammer termineringsreglen.       
+         //her er den rekursive del, da vi kalder på funktionen inde i selve funktionen.
+            return n * Faculty(n - 1);
+        
+        
         
     }
 }
+
 class Opgave4
 {
-    public static int Modulu(int a, int b)
+    public static int Euclid(int a, int b)
     {
-        
+
+        // hvis b er mindre eller lig med 0 og der ikke er nogen rest efter modulu, terminer
         if (b <= a && a % b == 0)
         {
-            //termineringsregl
             return b;
         }
-        
-        else if (a < b)
+        //rekurrensregl
+        if(a < b)
         {
-            //rekurrensregl
-            return Modulu(b, a);
+            return Euclid(b, a);
         }
+
+        // ellers gør dette
         else
         {
-            return Modulu(b, a % b);
+            return Euclid(b, a % b);
         }
-
-
+        
     }
+
 }
 
-    class Opgave5
-    {
-        public static int Potens(int n, int p)
+class Opgave5
+{
+    public static int Potens(int n, int p)
+    { //terminer hvis potens er 0
+        if(p == 0)
         {
-            
-            if (p == 0)
-            {
-                //termineringsregl
-                return 1;
-            }
-            
-            else if (p > 0)
-            {
-                //rekurrensregl
-                return n * Potens(n, p - 1);
-            }
-
-
-        return -1;
-
-
+            return 1;
         }
-
-
-
+       
+        //rekurrensregl, returner tallet * funktionen, hvor potensen bliver -1 hver gang rekursionen foregår, indtil termineringsreglen rammes.
+        return n*Potens(n,p - 1);      
     }
+
+}
 class Opgave6
 {
     public static int Multiply(int a, int b)
