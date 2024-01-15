@@ -48,23 +48,17 @@ namespace array_træning_til_eksamen
         public string Add(int index, string country)
         {
             
-            for (int i = 0; i < countryArray.Length; i++)
+            for (int i = index; i < countryArray.Length; i++)
             {
                 if (countryArray[i] == null)
                 {
-                    index++;
+                    countryArray[i] = country;
+                    return "country added";
                 }
 
-                else if (countryArray[i] == countryArray.Length)
-                {
-                    countryArray[i] = countryArray[0];
-                }
-                countryArray[i] = country;
-
-                
-
-
+               
             }
+            return "error";
         }
     }
 } //$"landet:{country} er blevet slettet";

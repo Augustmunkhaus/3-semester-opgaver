@@ -17,6 +17,7 @@ namespace array_træning_til_eksamen
             Console.WriteLine(countries.RemoveCountry("Belgium"));
             Console.WriteLine(string.Join(", ", countries.countryArray));
             Console.WriteLine(countries.Add(5,"Grønland"));
+            Console.WriteLine(string.Join(", ", countries.countryArray));
 
         }
             
