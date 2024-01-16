@@ -23,6 +23,7 @@ Console.WriteLine(Opgave3.Faculty(5)); // Output skal være '120'.
 Console.WriteLine(Opgave4.Euclid(36, 60));
 Console.WriteLine(Opgave5.Potens(5, 4));
 Console.WriteLine(Opgave6.Multiply(5, 4));
+Console.WriteLine(Opgave7.Bananrekursiv("egaknanab"));
 class Opgave3
 {
    /* public static int Faculty(int n)
@@ -112,6 +113,25 @@ class Opgave6
             return -1; // You can change this to an appropriate value or throw an exception
         }
     }
+}
+    class Opgave7
+    {
+    public static string Bananrekursiv(string s)
+    {
+        // Base case: if the string is empty or has only one character, return it as it is already reversed
+        if (string.IsNullOrEmpty(s)) 
+        {
+            return s;
+        }
+        else
+        {
+            // Recursive case: reverse the substring without the last character and append the last character
+            return Bananrekursiv(s.Substring(1)) + s[0];
+        }
+    }
+
+
+
 
 
 
